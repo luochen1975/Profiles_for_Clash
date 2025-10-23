@@ -12,7 +12,7 @@ on:
     paths-ignore:
       - 'README.md'
   schedule:
-    - cron: "0 3 ? * TUE,FRI "
+    - cron: "0 23,4,9,14/5 * * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
